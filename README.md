@@ -21,3 +21,17 @@ python -m venv cal_venv
 # create requirements.txt
 pip install -r requirements.txt
 ```
+
+
+- Push to github repository
+```
+# add to staggig area
+git add . 
+
+# add local repository
+git commit -m "two steps are done"
+
+# add remote repository
+git push -u origin main
+```
+
