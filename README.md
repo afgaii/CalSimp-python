@@ -88,3 +88,8 @@ It tells Python tools important project information, such as:
 - How to build/install the project
 - Test settings
 - Formatter and linter settings
+
+### 5. Streamlit app
+- Install streamlit: `pip install streamlit`
+- create file `streamlit_app.py`
+- Run streamlit: `streamlit run streamlit_app.py`
