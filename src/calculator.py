@@ -42,7 +42,7 @@ class Calculator:
     def divide(self, a: float, b: float) -> float:
         """Returns the quotient of a and b. Raises ZeroDivisionError if b is zero."""
         if b == 0:
-            logging.error("Attempted to divide by zero.")
+            logger.error("Attempted to divide by zero.")
             raise ZeroDivisionError("Cannot divide by zero.")
 
         result = a / b
@@ -58,7 +58,7 @@ class Calculator:
     def modulus(self, a: float, b: float) -> float:
         """Returns the modulus of a and b."""
         if b == 0:
-            logging.error("Attempted to compute modulus with divisor zero.")
+            logger.error("Attempted to compute modulus with divisor zero.")
             raise ZeroDivisionError("Cannot compute modulus with divisor zero.")
         result = a % b
         logger.info(f"Computing modulus of {a} and {b}: Result = {result}")
@@ -67,7 +67,7 @@ class Calculator:
     def square_root(self, a: float) -> float:
         """Returns the square root of a. Raises CalculatorBaseError if a is negative."""
         if a < 0:
-            logging.error("Attempted to compute square root of a negative number.")
+            logger.error("Attempted to compute square root of a negative number.")
             raise CalculatorBaseError(
                 "Cannot compute square root of a negative number."
             )

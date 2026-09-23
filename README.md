@@ -1,6 +1,10 @@
 # CalSimp-python
 Complete Python Calculator Project
 
+<p align="center">
+  <img src="images/aaii_logo.png" alt="AAII Logo" width="700px"/>
+</p>
+
 ## Steps
 
 ### 1. Create Github Repository and git clone it
